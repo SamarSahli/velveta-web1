@@ -473,26 +473,33 @@ margin: auto;
 
 .features-section {
   display: flex;
-  gap: 30px;
+ 
   justify-content: center;
   margin-bottom: 60px;
   flex-wrap: wrap;
 }
 
 .feature-card {
+   float: left;
   background: #f3eaff;
-  flex: 1 1 280px;
-  max-width: 320px;
-  padding: 25px 20px;
   border-radius: 18px;
   box-shadow: 0 8px 20px rgba(106, 13, 173, 0.15);
   text-align: center;
-  cursor: pointer;
-  position: relative;
   overflow: hidden;
-  transition: transform 0.3s ease;
-}
+  transition: transform 0.3s;
+  padding: 12px;
+  position: relative;
+  cursor: pointer; 
+  padding: 25px 20px;
+  width: 30%;
+  width: 300px;
+  
+} 
 
+.feature-card-2{
+  margin: 0px 5%;
+ }
+ 
 .feature-card i {
   font-size: 2.5rem;
   color: #6a0dad;
